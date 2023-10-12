@@ -1,6 +1,8 @@
-# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Made as a demonstration of my skills on React. I was inspired by the "Who wants to be a millionare?" TV shows and decided to somewhat rip it off.
+The questions that can be asked are completely customizable, and made easy for you.
+THE GAME COMES WITH SAMPLE QUESTIONS FILE, YOU SHOULD PROBABLY EDIT IT FOR YOUR OWN ENJOYMENT!!!1!!1!
 
 ## Available Scripts
 
