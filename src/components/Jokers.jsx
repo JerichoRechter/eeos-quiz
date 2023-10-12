@@ -44,11 +44,11 @@ export default function Jokers({data,questionNO}) {
     
     
     <h1 className="JokerInfo" > {correct}</h1>
-    <div style={showedJ1 ? { display: "none" } : { display: "flex" }} className="joker1"  onClick={()=> {handleJoker1(x);setShowedJ1(true)}}>../</div>
+    <div style={showedJ1 ? { display: "none" } : { display: "flex" }} className="joker1"  onClick={()=> {handleJoker1(x-1);setShowedJ1(true)}}>../</div>
     <h1 className="JokerInfo2" > {correct2}</h1>
     <div style={showedJ2 ? { display: "none" } : { display: "flex" }} className="joker2"  onClick={()=> {handleJoker2(x);setShowedJ2(true)}}>(O)</div>
     <h1 className="Joker3" > {correct3}</h1>
-    <div style={showedJ3 ? { display: "none" } : { display: "flex" }} className="joker3"  onClick={()=> {handleJoker3(x);setShowedJ3(true)}}>{">>"}</div>
+    <div style={showedJ3 ? { display: "none" } : { display: "flex" }} className="joker3"  onClick={()=> {handleJoker3(x-1);setShowedJ3(true)}}>{">>"}</div>
     </div>
   )
 }
