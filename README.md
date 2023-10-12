@@ -4,6 +4,11 @@ Made as a demonstration of my skills on React. I was inspired by the "Who wants 
 The questions that can be asked are completely customizable, and made easy for you.
 THE GAME COMES WITH SAMPLE QUESTIONS FILE, YOU SHOULD PROBABLY EDIT IT FOR YOUR OWN ENJOYMENT!!!1!!1!
 
+![Screenshot (3)](https://github.com/JerichoRechter/eeos-quiz/assets/104209298/c45718ec-7bb5-44fe-8db6-d077fb0ce373)
+
+![Screenshot (4)](https://github.com/JerichoRechter/eeos-quiz/assets/104209298/18d3756e-a262-4b0f-b067-9bc3105004c9)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
