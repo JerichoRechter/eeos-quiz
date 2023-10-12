@@ -26,7 +26,7 @@ export default function Jokers({data,questionNO}) {
               setCorrect("")
             },4000)))};
             const handleJoker2=(Q)=>{
-              [data[Q+1]?.answers[1]].filter(answers => answers?.correct === true).map(filteredPerson => (
+              [data[Q]?.answers[1]].filter(answers => answers?.correct === true).map(filteredPerson => (
                   setCorrect2( "The answer to the next question is:" + filteredPerson.text),
                   setTimeout(function(){
                     setCorrect2("")
