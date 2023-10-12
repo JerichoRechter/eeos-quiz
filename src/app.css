@@ -1,0 +1,239 @@
+.app{
+    height:100vh;
+    display:flex;
+    background-color:  #069737;
+    color:#f0e6fd;
+    
+}
+
+.main{
+    width: 260%;
+    height: 80%;
+
+    background: linear-gradient(to bottom, rgba(0,0,0,0),#069737),  
+     url(./resources/LB.jpg) center no-repeat ;
+     display:flex;
+     flex-direction: column;
+    
+
+}
+
+.wall{
+    width: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tierList{
+    list-style: none;
+    width: 100%;
+    padding: 20px;
+}
+
+.tierListItem{
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    border-radius: 12px;
+}
+.tierListItemNumber{
+    font-size: 18px;
+    font-weight: 100;
+    width: 10%;
+}
+
+.tierListItemTitle{
+    font-size: 30px;
+    font-weight: 300;
+}
+.tierListItem.active{
+    background-color:#63ad7c
+}
+.top{
+    height:50%;
+    position: relative;
+
+}
+.bottom{
+    height:50%;
+
+
+}
+.timer{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border:3px solid #f0e6fd;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+    font-weight: 450;
+    font-size: 25px;
+    position:absolute;
+    bottom:150px;
+    left:407px;
+
+}
+.question{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.questionQ{
+     border-color: #000000;
+     border: 3px solid  #f0e6fd;
+     background-color: #1b3a25;
+
+     width: 75%;
+     text-align: center;
+     padding: 30px;
+     border-radius: 60px;
+}
+.questionAS{
+    
+    width: 80%;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.questionA{
+    width: 45%;
+    height: 90%;
+    
+    text-align: center;
+    border: 1.5px solid  #f0e6fd ;
+    background-color: #1b3a25;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 0px 5px 10px 5px;
+    
+
+}
+.questionA:hover,
+.questionA.active{
+    background:#63ad7c;
+}
+.questionA.correct{
+    animation: correct 3s ease forwards;
+
+}
+@keyframes correct{
+    0%,22%,42%{
+        background:#19e95e;
+    }
+    20%,40%,60%{background:#3a6849
+    }
+    62%,100%{
+        background:#09ff00
+    }
+}
+.questionA.wrong{
+    animation: wrong 3s ease forwards;
+
+}
+@keyframes wrong{
+    0%,22%,42%{
+        background:#19e95e;
+    }
+    20%,40%,60%{background:#3a6849
+    }
+    62%,100%{
+        background:#000000
+    }
+}
+.joker1{
+    height: 50px;
+    right: 390px;
+
+    width: 50px;
+    border-radius: 50%;
+    border:5px solid black;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+    font-weight: 450;
+    font-size: 16px;
+    position:absolute;
+    top: 30px;
+}
+.joker2{
+    height: 50px;
+    width: 50px;
+    right: 390px;
+
+    border-radius: 50%;
+    border:5px solid black;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+    font-weight: 450;
+    font-size: 25px;
+    position:absolute;
+    top:90px;
+}
+.joker3{
+    height: 50px;
+    width: 50px;
+    right: 390px;
+    border-radius: 50%;
+    border:5px solid black;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+    font-weight: 450;
+    font-size: 35px;
+    position:absolute;
+    top: 150px;
+}
+.FinalText{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+}
+
+.JokerInfo{
+    background-color: black;
+    width: 250px;
+    top: -250px;
+    left: -170px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    
+    }
+.JokerInfo2{
+        background-color: black;
+        width: 250px;
+        top: -200px;
+        left: -170px;
+        margin: auto;
+        position: relative;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        
+        }
+.Joker3{
+        background-color:black;
+        width: 250px;
+        top: -150px;
+        left: -170px;
+        margin: auto;
+        position: relative;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+            
+        }
